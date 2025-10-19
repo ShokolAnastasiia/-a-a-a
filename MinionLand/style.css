@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.container {
+  width: 90%;   
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-size: 50px;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url('https://zastavki.gas-kvas.com/uploads/posts/2024-09/thumbs/zastavki-gas-kvas-com-bhri-p-zastavki-na-rabochii-stol-kompyutera-minon-24.jpg');
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.arrow-next {
+    font-size: 5em;
+    margin: 0;
+    cursor: pointer;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    background: #fff5bc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5em 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+.section1 {
+    background-color: #fff5bc;
+    /*padding-bottom: 500px;*/
+    /*background-size: cover;
+    background-repeat: no-repeat; /* не повторять */
+   /* background-position: center; /* центрировать */
+}
+
+.mini_minion{
+  position: absolute;
+  /*bottom: 0px;*/
+  left: 0px;
+  z-index: 0;
+  bottom: -740px ;
+}
+
+.big_minion{
+     position: absolute;
+  /*bottom: 0px;*/
+  left: 0px;
+  z-index: 0;
+  bottom: -3100px ;
+  height: 300px;
+}
+
+
+
+.section2 {
+    background-color: #fff1a2;
+    
+ 
+}
+
+
+.section3 {
+    background-color: #fff5bc;
+}
+
+.section5 {
+    background-color: #fff5bc;
+}
+
+.section4 {
+    background-color:  #fff1a2;   
+}
+
+nav {
+  margin-bottom: 0;
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.nav-item {
+    width: fit-content;
+    padding: .5em;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: white;
+    margin-right: 1em;
+    user-select: none;
+    cursor: pointer;
+   
+}
+
+#team > h1,
+#merch > h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-align: left;
+    width: 80vw;
+}
+
+.team-wrapper,
+.about-wrapper,
+.merch-wrapper {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2em;
+    left: 100px;
+}
+
+#about > h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-align: left;
+    width: 80vw;
+}
+
+.about-wrapper {
+    flex-direction: column;
+    z-index: 1;
+}
+
+.about-wrapper p{
+    width: 100%;
+    padding-left: 100px ;
+}
+
+.team-item,
+.merch-item {
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.merch-item {
+    width: 15vw;
+}
+
+.team-item-top,
+.merch-item-top {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.team1 .team-item-top {
+    background: url(8.png);
+    background-repeat: no-repeat; /* не повторять */
+    background-position: center; /* центрировать */
+
+}
+
+.team2 .team-item-top {
+    background: url(7.png);
+    
+    background-repeat: no-repeat; /* не повторять */
+    background-position: center; /* центрировать */
+}
+
+.team3 .team-item-top {
+    background: url(9.png);
+    background-size: cover;
+}
+
+.team-item-bottom h2,
+.merch-item-bottom h2 {
+    text-transform: uppercase;
+}
+
+.merch-item-bottom {
+    width: 100%;
+}
+
+.merch-item-bottom h2 {
+    font-size: 1em;
+}
+
+.merch-item-bottom p {
+    font-size: .8em;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.merch1 .merch-item-top {
+    background: url(12.png);
+    background-size: cover;
+
+}
+
+.merch2 .merch-item-top {
+    background: url(13.png);
+    background-size: cover;
+}
+
+.merch3 .merch-item-top {
+    background: url(14.png);
+    background-size: cover;
+}
+
+.merch4 .merch-item-top {
+    background: url(15.png);
+    background-size: cover;
+}
+
+.submit-wrapper {
+    width: 60vw;
+}
+
+.submit-wrapper > h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-align: left;
+    width: 60vw;
+}
+
+.submit-form {
+    width: 100%;
+    display: flex;
+    border: 1px solid #5D4229;
+    border-bottom: none;
+    box-sizing: border-box;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 1em;
+}
+
+.submit-btn-row{
+    width: 100%;
+    display: flex;
+}
+
+.submit-btn {
+    width: 50%;
+    box-sizing: border-box;
+    background: #ffc354;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.submit-btn-calc {
+    border-bottom-left-radius: 5px;
+    padding: .5em;
+    border-right: .5px solid #f5a30b;
+    border-left: 1px solid #f5a30b;
+    border-bottom: 1px solid #f5a30b;
+}
+
+.submit-btn-send {
+    border-bottom-right-radius: 5px;
+    padding: .5em;
+    border-left: .5px solid #f5a30b;
+    border-right: 1px solid #f5a30b;
+    border-bottom: 1px solid #f5a30b;
+}
+
+.submit-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.submit-input,
+.submit-select {
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid #5D4229;
+    font-size: 1.1em;
+    box-sizing: border-box;
+}
+
+.submit-input:active,
+.submit-input:focus,
+.submit-select:active,
+.submit-select:focus {
+    border-bottom: 1px solid #5D4229;
+    outline: none;
+}
+
+.submit-select {
+    /* border: none; */
+    padding: calc(.5em - 1px);
+}
+
+.submit-input-label {
+    font-size: .7em;
+    margin: 0 0 1em 0;
+    padding-left: .7em;
+}
+
+.submit-input-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group {
+    width: calc(50% - 2px);
+    margin: 0;
+    padding: 0;
+}
+
+.row-item {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.add-to-cart-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.add-to-cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+    font-size: .8em;
+    aspect-ratio: 1 / 1;
+    color: white;
+    background: #5D4229;
+    border-radius: 2px;
+    width: fit-content;
+    user-select: none;
+}
+
+.add-to-cart-btn:hover {
+    background: #8a623d;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:active {
+    background: #5D4229;
+}
+
+.cart-amount {
+    background: white;
+    color: black;
+    border-radius: 20%;
+    padding: 0 .2em;
+}
+
+
+
+
+
+    h1 {
+      color: #f1c40f;
+      text-shadow: 2px 2px #333;
+    }
+    textarea {
+      width: 80%;
+      height: 80px;
+      margin: 10px 0;
+      font-size: 16px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      background: #f1c40f;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #f39c12;
+    }
+    .output {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+
+    /* ------- Osmo [https://osmo.supply/] ------- */
+/* Osmo UI: https://slater.app/10324/23333.css */
+
+
+
+a,
+button {
+  cursor: url("https://cdn.prod.website-files.com/6708f85ff3d3cba6aff436fb/671251b212e6b71494aa67ff_cursor-pointer%402x.svg")
+      12 0,
+    pointer;
+}
+
+.cloneable {
+  padding: var(--section-padding) var(--container-padding);
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  display: flex;
+  position: relative;
+}
+
+.text-draw {
+  color: #340824;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: 3.5vw;
+  text-decoration: none;
+}
+
+
+
+.text-draw__box {
+  color: #e55050;
+  width: 100%;
+  height: .625em;
+  position: relative;
+}
+
+.text-draw__box-svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: visible !important;
+}
+
+.osmo-credits {
+  z-index: 999;
+  pointer-events: none;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4em;
+  padding: 1em;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 1vw;
+}
+
+.osmo-credits__p {
+  pointer-events: auto;
+  color: rgba(19, 19, 19, 0.5);
+  text-align: center;
+  margin: 0;
+  font-family: PP Neue Montreal, Arial, sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.osmo-credits__p-a {
+  color: #340824;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('https://cdn.prod.website-files.com/6819ed8312518f61b84824df/6819ed8312518f61b84825ba_PPNeueMontreal-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
